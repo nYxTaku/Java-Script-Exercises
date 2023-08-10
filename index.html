@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>JS Introduction</title>
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="head_1">Java Script Exercises</h1>
+    <div id="box"></div> <br>
+    <button onclick="myFunction()">Button</button> <br><br>
+    <input type="text" id="head_change" placeholder="Change Title" oninput="textbox()"> <br><br>
+    <input type="radio" id="font1" name="font-options" value="cursive" onclick="myfont1()">
+    <label for="font1">Font 1</label>
+    <input type="radio" id="font2" name="font-options" value="italic" onclick="myfont2()">
+    <label for="font2">Font 2</label>
+    <input type="radio" id="font3" name="font-options" value="heavy" onclick="myfont3()">
+    <label for="font3">Font 3</label> <br><br>
+    <div id="container">
+        <div id="resizableDiv">
+            <img id="resizableImage" src="image1.jpg" alt="Resizable Image">
+        </div>
+        <input type="range" id="sizeSlider" min="100" max="500" value="300" oninput="changeDivSize()">
+        <br><br>
+        <label for="imageSelector">Select Image:</label>
+        <select id="imageSelector" onchange="changeImage()">
+            <option value="image1.jpg">Image 1</option>
+            <option value="image2.jpg">Image 2</option>
+            <option value="image3.jpg">Image 3</option>
+        </select>
+    </div><br><br>
+</body>
+</html>
